@@ -1,0 +1,14 @@
+langchain>=0.3
+langchain-core
+langchain-community
+langchain-text-splitters
+langchain-huggingface
+langchain-ollama          # default: local free LLM via Ollama
+langchain-groq            # optional: free API tier
+langchain-google-genai    # optional: free API tier
+faiss-cpu
+sentence-transformers
+pypdf
+streamlit
+pydantic>=2
+pytest
