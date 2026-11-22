@@ -1,0 +1,24 @@
+[
+  {
+    "system": "Baseline (single prompt)",
+    "seconds": 13.1,
+    "llm_calls": 1,
+    "format_validity": 0.0,
+    "error": "step 'baseline' failed after 3 attempts: [WinError 10061] No connection could be made because the target machine actively refused it",
+    "questions": 0,
+    "quote_faithfulness": 0.0,
+    "topic_coverage": 0.0,
+    "run": 1
+  },
+  {
+    "system": "RAG pipeline (ours)",
+    "seconds": 13.2,
+    "llm_calls": 1,
+    "format_validity": 0.0,
+    "error": "step 'topics' failed after 3 attempts: [WinError 10061] No connection could be made because the target machine actively refused it",
+    "questions": 0,
+    "quote_faithfulness": 0.0,
+    "topic_coverage": 0.0,
+    "run": 1
+  }
+]
